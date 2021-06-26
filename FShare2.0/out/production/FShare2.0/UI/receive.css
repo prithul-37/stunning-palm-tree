@@ -1,0 +1,93 @@
+#EXIT{
+    -fx-background-color: transparent;
+}
+#EXIT:hover{
+    -fx-background-color: red;
+}
+#Background{
+    -fx-background-color: Skyblue;
+    -fx-border-color: White;
+    -fx-border-width: 3;
+}
+
+#send{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-text-fill: SkyBlue;
+    -fx-font-size: 13;
+}
+#send:hover{
+    -fx-background-color: SkyBlue;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-border-color: white;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+}
+
+#receiveAgain{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-text-fill: SkyBlue;
+    -fx-font-size: 13;
+}
+#receiveAgain:hover{
+    -fx-background-color: SkyBlue;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-border-color: white;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+}
+
+#receive{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-text-fill: SkyBlue;
+    -fx-font-size: 15;
+}
+#receive:hover{
+    -fx-background-color: SkyBlue;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-border-color: white;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+}
+
+#setPath{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-text-fill: SkyBlue;
+    -fx-font-size: 12;
+}
+#setPath:hover{
+    -fx-background-color: SkyBlue;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+    -fx-border-color: white;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+}
+
+#progressBar{
+    -fx-accent : #00fcf8;
+}
+#toolTips{
+    -fx-background-radius: 7 7 7 7;
+    //-fx-background-color: linear-gradient(cyan  , deepskyblue  );
+    -fx-font-family: Arial;
+    -fx-font-size: 12;
+}

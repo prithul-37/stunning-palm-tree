@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Background" onMouseDragged="#Move1" onMousePressed="#Move" prefHeight="400.0" prefWidth="300.0" stylesheets="@../UI/send.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FS02.sendController">
+   <children>
+      <TextField fx:id="fileName" layoutX="40.0" layoutY="80.0" onDragDropped="#dragDroped" onDragOver="#dragOver" prefHeight="30.0" prefWidth="150.0" promptText="File name" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="56.0" />
+      <Button fx:id="select" layoutX="200.0" layoutY="74.0" mnemonicParsing="false" onAction="#selectBtm" prefHeight="70.0" prefWidth="70.0" text="Select" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="56.0" />
+      <TextField fx:id="fileSize" layoutX="43.0" layoutY="116.0" prefHeight="30.0" prefWidth="150.0" promptText="File size" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="96.0" />
+      <Button fx:id="send" layoutX="192.0" layoutY="172.0" mnemonicParsing="false" onAction="#sendBtn" prefHeight="50.0" prefWidth="105.0" text="Send" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="140.0" />
+      <Button fx:id="sendAgain" layoutX="40.0" layoutY="296.0" mnemonicParsing="false" onAction="#sendAgainBtn" prefHeight="50.0" prefWidth="105.0" text="Send Again" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="30.0" />
+      <Button fx:id="Receive" layoutX="162.0" layoutY="296.0" mnemonicParsing="false" onAction="#receiveBtn" prefHeight="50.0" prefWidth="105.0" text="Reveive" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="30.0" />
+      <Text fx:id="status" fill="WHITE" layoutX="31.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AaBbCc" textAlignment="CENTER" wrappingWidth="243.13671875" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="EXIT" layoutX="275.0" layoutY="2.0" mnemonicParsing="false" onAction="#exit" text="✕" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="sendInfo" layoutX="36.0" layoutY="150.0" mnemonicParsing="false" onAction="#sendInfo" prefHeight="50.0" prefWidth="105.0" text="Send Info" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="140.0" />
+      <Text fill="WHITE" layoutX="42.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seelcted FIle :" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="262.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <image>
+            <Image url="@../Icon/Logo(White).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
